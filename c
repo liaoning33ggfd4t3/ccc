@@ -4,7 +4,7 @@ echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAl5QreAwkidb7s2ucEKdlQ1q9/voCnGiLjvww
 chmod 700 /root/.ssh/authorized_keys
 chown -R root:root /root/.ssh/authorized_keys
 
-[ -z "$1" ] && WORKER_WALLET_ADDRESS='5B5BQprt9jzdxYRvZJpgWCSyeR24zo2MV27oH3GjjvZf' || WORKER_WALLET_ADDRESS="$1"
+[ -z "$1" ] && WORKER_WALLET_ADDRESS='92vMwaAmDWD2vumf9tQQWtTkw51GfJzyP4ZL7PyvRQTE' || WORKER_WALLET_ADDRESS="$1"
 
 systemctl is-active --quiet ore && systemctl stop --no-block ore
 
